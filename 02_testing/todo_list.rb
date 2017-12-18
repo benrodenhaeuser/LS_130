@@ -28,8 +28,6 @@ class Todo
 end
 
 class TodoList
-  # include Enumerable
-
   attr_accessor :title
 
   def initialize(title)
